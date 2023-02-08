@@ -1,0 +1,40 @@
+.container-section-2 {
+  display: grid;
+  height: auto;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 1200px) {
+  .container-section-2 {
+    overflow-x: scroll;
+  }
+}
+
+@media (max-width: 992px) {
+  .container-section-2 {
+    overflow-x: scroll;
+  }
+}
+
+@media (max-width: 768px) {
+  .container-section-2 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 576px) {
+  .container-section-2 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 375px) {
+  .links {
+    display: none;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+}
